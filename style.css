@@ -1,0 +1,192 @@
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 0.5em;
+}
+
+.nav.flex-column.text-white {
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+}
+
+.nav-item:hover .nav-link svg {
+    color: white;
+    transition: 0.2s;
+}
+
+.nav-item:hover .nav-link:has(svg + strong) strong {
+    color: white;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.nav-item {
+    margin-left: 0.25em;
+}
+
+.col-3.bg-warning.rounded {
+    margin-top: 0.4em;
+}
+
+h6 {
+    font-size: 0.9em;
+    margin-left: -0.18em;
+    font-weight: 600;
+}
+
+.custom-col {
+    width: calc(74% - 10px);
+    /* Adjust the width as needed */
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+    margin-left: 0.45em;
+    padding: 0;
+}
+
+.nav.justify-content-end {
+    background-color: rgb(19, 19, 19);
+    height: 4em;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0.3em;
+    font-size: 1em;
+    letter-spacing: 0.08em;
+    color: rgb(167, 167, 167);
+}
+
+.line {
+    width: 0.1em;
+    height: 1.3em;
+    background-color: rgb(94, 94, 94);
+    margin-left: 1.3em;
+}
+
+.nav-link.sign-up {
+    font-size: 0.9em;
+    margin-left: 1.5em;
+    letter-spacing: none;
+}
+
+.nav-item.mb-2 a {
+    font-size: 1em;
+}
+
+.custom-col.bg-dark.rounded-3 .nav-item:hover .nav-link {
+    color: white;
+    font-size: 1.03em;
+    transition: 0.2s;
+}
+
+.btn.btn-light {
+    height: 3em;
+    width: 6.9em;
+    margin-right: 1.35em;
+    margin-left: 1.7em;
+    color: rgb(19, 19, 19);
+    font-weight: 700;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    /* Optional: Align items vertically in the center */
+    justify-content: space-between;
+    /* Adjust as needed */
+}
+
+.display h1 {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-left: 1.1em;
+    margin-top: 0.14em;
+    letter-spacing: -0.4px;
+    margin-bottom: 1.55em;
+}
+
+.display h2 {
+    font-size: 0.85em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    margin-right: 1.7em;
+    margin-top: 0.5em;
+    letter-spacing: 0.4px;
+    color: rgb(185, 185, 185);
+    font-weight: 700;
+}
+
+h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/** POSTERS BELOW **/
+.posters img {
+    width: 11em;
+    height: 11em;
+    border-radius: 5px;
+    margin-top: 0.8em;
+}
+
+.poster-box {
+    width: 13em;
+    height: 13em;
+    background: linear-gradient(to top, rgba(43, 43, 43, 0.9), rgba(38, 38, 38, 0.2));
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.posters {
+    display: flex;
+    justify-content: space-around;
+}
+
+.poster-box:hover {
+    background: rgba(43, 43, 43, 0.9);
+    transition: 0.3s;
+}
+
+audio {
+    width: 11em;
+    height: 1.5em;
+    display: inline-block;
+}
+
+.audio-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.8em;
+    margin-top: 0.4em;
+}
+
+#audio-player {
+    width: 10.4em;
+    height: 1em;
+}
+
+.songs-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#song-name {
+    color: rgb(169, 169, 169);
+    font-size: 0.7em;
+}
+
+hr {
+    color: aliceblue;
+}
